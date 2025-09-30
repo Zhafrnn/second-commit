@@ -29,7 +29,7 @@ void main(List<String> args) {
    * operator perbandingan
    * < : kurang dari
    * > : Lebih dari
-   * <= : kurang lebih dari sama dengan
+   * <= : kurang dari sama dengan
    * >= : Lebih dari sama dengan
    * && : 'and' harus keduanya true
    * || : 'or' salah satunya true maka hasilnya true
