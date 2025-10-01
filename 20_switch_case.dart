@@ -34,4 +34,23 @@ void main(List<String> args) {
     default:
       print('Operator tidak valid');
   }
+
+  /**
+   * Menggunakan switch case
+   * 
+   * buatkan perhitungan dengan perhitungan
+   * angkaPertama, angkaKedua, simbnolnya
+   * +, -, /, *, %
+   * 
+   * buatkan pengecekan hari dari senin - jumat
+   * "Ini adalah hari Senin"
+   * hari dari sabtu - minggu
+   * "Ini adalah hari libur"
+   * tidak sensitive case (kalau sensitive betul-betul sama (identik/kapital semua))
+   * 
+   * buatkan pengecekan kandaraan
+   * 1. Mobil
+   * 2. Motor
+   * 3. Sepeda
+   */
 }
