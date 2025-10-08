@@ -1,3 +1,4 @@
+import '29_contructor.dart';
 import 'RPG_challenge.dart';
 import '27_class_animal.dart';
 import '28_class_plants.dart';
@@ -38,6 +39,6 @@ void main(List<String> args) {
    * - heal
    */
 
-  var player = Character();
+  var hewan = Hewan('Ucup Guerero', 'Orange n white', 3.5);
 
 }
