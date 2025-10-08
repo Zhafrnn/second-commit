@@ -18,18 +18,18 @@ class Hewan {
   // }
 
   // Named constructor
-  // Hewan.name(this.name);
-  // Hewan.color(this.color);
-  // Hewan.weigth(this.weigth);
+  Hewan.name(this.name);
+  Hewan.color(this.color);
+  Hewan.weigth(this.weigth);
 
   // Initializer list
-  Hewan(this.name, this.color){
+  Hewan(this.name, this.color, this.weigth){
     this.weigth = 12.0;
   }
 
   // methods
   void eat() {
-    print('$name sedang makan ayam');
+    print('$name sedang makan ayam bewarna $color');
   }
 
   void sleep() {

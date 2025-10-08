@@ -39,6 +39,8 @@ void main(List<String> args) {
    * - heal
    */
 
-  var hewan = Hewan('Ucup Guerero', 'Orange n white', 3.5);
-
+  var hewan = Hewan('Ucup Guerero', 'Orange n white', 3.5)
+    ..name = 'Vladimir'
+    ..color = 'Red'
+    ..eat();
 }
