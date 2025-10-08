@@ -39,8 +39,15 @@ void main(List<String> args) {
    * - heal
    */
 
+  // Penggunaan casecade Notation
   var hewan = Hewan('Ucup Guerero', 'Orange n white', 3.5)
     ..name = 'Vladimir'
     ..color = 'Red'
-    ..eat();
+    ..eat()
+    ..sleep();
+
+  /**
+     * Ttiki koma (;) manandakan berakhirnya sebuah baris kode
+     * Jangan lupa titik koma (;)
+     */
 }
