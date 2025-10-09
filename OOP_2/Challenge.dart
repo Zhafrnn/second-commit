@@ -10,4 +10,14 @@
  * - fly() //Methods
  * 
  * 
+ * 
+ * Buatlah turunan class dari book bernama
+ * Ebook
+ * 
+ * Properties:
+ * - fileSize = double
+ * - link     = String
+ * - isbn     = num
+ * 
+ * 
  */
