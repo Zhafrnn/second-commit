@@ -1,4 +1,5 @@
 import '29_contructor.dart';
+import 'Book_challeng.dart';
 import 'RPG_challenge.dart';
 import '27_class_animal.dart';
 import '28_class_plants.dart';
@@ -50,4 +51,12 @@ void main(List<String> args) {
      * Ttiki koma (;) manandakan berakhirnya sebuah baris kode
      * Jangan lupa titik koma (;)
      */
+
+  var toko1 = Book('Flutter Tutorial', 'Al', 15.000, 20)
+    ..title = 'Dart Tutorial'
+    ..author = 'Haydar Zhafran'
+    ..price = 25.000
+    ..stock = 10;
+
+  print(toko1);
 }
