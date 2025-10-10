@@ -18,6 +18,8 @@
  * - fileSize = double
  * - link     = String
  * - isbn     = num
- * 
+ * Contructionsny yang ada didalam book
+ * Methods:
+ * - fileSize()
  * 
  */
