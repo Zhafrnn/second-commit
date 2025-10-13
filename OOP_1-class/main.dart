@@ -1,5 +1,5 @@
 import '29_contructor.dart';
-import '../OOP_2/Book_challeng.dart';
+// import '../OOP_2/Book_challeng.dart';
 import 'RPG_challenge.dart';
 import '27_class_animal.dart';
 import '28_class_plants.dart';
@@ -41,22 +41,22 @@ void main(List<String> args) {
    */
 
   // Penggunaan casecade Notation
-  var hewan = Hewan('Ucup Guerero', 'Orange n white', 3.5)
-    ..name = 'Vladimir'
-    ..color = 'Red'
-    ..eat()
-    ..sleep();
+  // var hewan = Hewan('Ucup Guerero', 'Orange n white', 3.5)
+  //   ..name = 'Vladimir'
+  //   ..color = 'Red'
+  //   ..eat()
+  //   ..sleep();
 
   /**
      * Ttiki koma (;) manandakan berakhirnya sebuah baris kode
      * Jangan lupa titik koma (;)
      */
 
-  var toko1 = Book('Flutter Tutorial', 'Al', 15.000, 20)
-    ..title = 'Dart Tutorial'
-    ..author = 'Haydar Zhafran'
-    ..price = 25.000
-    ..stock = 10;
+  // var toko1 = Book('Flutter Tutorial', 'Al', 15.000, 20)
+  //   ..title = 'Dart Tutorial'
+  //   ..author = 'Haydar Zhafran'
+  //   ..price = 25.000
+  //   ..stock = 10;
 
-  print(toko1);
+  // print(toko1);
 }
